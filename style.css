@@ -9,22 +9,15 @@ body{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5rem;
-    background: linear-gradient(#FAD961, #F76B1C);
-    height: 90vh;
-}
-.clearfix::after{
-    content: '';
-    display:table;
-    clear: both;
-    height: 0;
+    background: linear-gradient(to right, red, yellow);
 }
 h1{
     margin: 5rem 0;
     font-size: 7rem;
-    color: #eee;
+    color: rgba(0,0,0,0.7);
 }
 h3{
     margin: 2rem 0;
     font-size: 5rem;
-    color: #eee;
+    color: rgba(0,0,0,0.7);
 }

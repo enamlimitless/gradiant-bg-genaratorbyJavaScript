@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="style.css">
     <title>Gradient Background Generator</title>
 </head>
-<body class="clearfix">
+<body id="bg" class="clearfix">
     <h1>Background Generator </h1>
-    <input type="color" name="color-1" value="#00ff00">
-    <input type="color" name="color-1" value="#ff0000">
+    <input oninput="setGradient()" class="color1" type="color" name="color-1" value="#00ff00">
+    <input oninput="setGradient()" class="color2" type="color" name="color-2" value="#ff0000">
     <h3>Current CSS Background</h3>
     <script src="custom.js"></script>
 </body>
