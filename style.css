@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{font-size:62.5%;}
+body{
+    font-family: 'Railway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    background: linear-gradient(#FAD961, #F76B1C);
+    height: 90vh;
+}
+.clearfix::after{
+    content: '';
+    display:table;
+    clear: both;
+    height: 0;
+}
+h1{
+    margin: 5rem 0;
+    font-size: 7rem;
+    color: #eee;
+}
+h3{
+    margin: 2rem 0;
+    font-size: 5rem;
+    color: #eee;
+}
