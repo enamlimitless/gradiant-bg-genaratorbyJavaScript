@@ -21,3 +21,10 @@ h3{
     font-size: 5rem;
     color: rgba(0,0,0,0.7);
 }
+h4{
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: rgba(0,0,0,0.7);
+    letter-spacing: 0.3rem;
+    text-transform: lowercase;
+}
