@@ -1,1 +1,1 @@
-# funproject1-gradiant-bg-genarator
+# Fun Project Gradiant Background Genarator
